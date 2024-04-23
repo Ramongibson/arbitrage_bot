@@ -30,8 +30,8 @@ Configuration parameters such as API keys, log levels, and trading parameters sh
   "exchanges": [
     {
       "name": "binanceus",
-      "apiKey": "your_api_key",
-      "secret": "your_secret",
+      "apiKey": "{api_key}",
+      "secret": "{api_secret}",
       "password": "{optional_api_password}"
     },
     {
@@ -78,11 +78,11 @@ Configuration parameters such as API keys, log levels, and trading parameters sh
                   "minimum_order_size" : 0.00003
               },
               "ETH/USDT": {
-                  "minimum_amount": 	0.00001,
+                  "minimum_amount":  0.00001,
                   "minimum_order_size" : 1
               },
               "ETH/BTC": {
-                  "minimum_amount": 	0.00001,
+                  "minimum_amount":  0.00001,
                   "minimum_order_size" : 1
               }
           }
@@ -94,11 +94,11 @@ Configuration parameters such as API keys, log levels, and trading parameters sh
                   "minimum_order_size" : 1
               },
               "ETH/USDT": {
-                  "minimum_amount": 	0.00002,
+                  "minimum_amount":  0.00002,
                   "minimum_order_size" : 0.01
               },
               "ETH/BTC": {
-                  "minimum_amount": 	0.00002,
+                  "minimum_amount":  0.00002,
                   "minimum_order_size" : 0.01
               }
               }
